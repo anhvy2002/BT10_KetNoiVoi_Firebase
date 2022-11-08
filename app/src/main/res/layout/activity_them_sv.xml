@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ThemSv">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="Thêm Sinh Viên"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Mã SV:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_masv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:hint="Mã sinh viên"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Họ tên:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_hoten"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:hint="Họ tên"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Email:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Điện thoại:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_dienthoai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.5"
+            android:hint="Điện thoại"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_them"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#03A9F4"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/bt_huy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#205E28"
+            android:text="Hủy" />
+
+        <Button
+            android:id="@+id/bt_thoat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E63"
+            android:text="Thoát" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:text="Đặng Thị Anh Vy - 2050531200361"
+        android:textAlignment="center" />
+
+</LinearLayout>

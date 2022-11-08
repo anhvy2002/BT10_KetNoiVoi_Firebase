@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "887535168835",
+    "project_id": "bt10firebase-dd338",
+    "storage_bucket": "bt10firebase-dd338.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887535168835:android:9a2d8fd9dddd7ddd6413f6",
+        "android_client_info": {
+          "package_name": "com.test.bt10_ketnoivoi_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887535168835-1p86u0991defioig8ltb51na4pmotsv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUmpJkLYlbT7ybI7oO-cWdKIMInABe4nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887535168835-1p86u0991defioig8ltb51na4pmotsv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
